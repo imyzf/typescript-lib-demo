@@ -1,0 +1,10 @@
+{
+    "extends": ["tslint-config-alloy"],
+    "linterOptions": {
+        "exclude": ["**/node_modules/**", "dist/**"]
+    },
+    "rules": {
+        "no-empty-interface": false,
+        "no-magic-numbers": false
+    }
+}
